@@ -1,0 +1,266 @@
+LOCUS       NC_001604               2749 bp    DNA     linear   PHG 07-JAN-2023
+DEFINITION  Enterobacteria phage T7, complete genome.
+ACCESSION   NC_001604
+VERSION     NC_001604.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq; capsid; dGTPase; DNA ligase; DNA polymerase; E. coli; E.
+            coli RNA polymerase; EcoB; EcoK; endonuclease; exonuclease; F
+            plasmid; H-NS protein; head-tail connector; helicase; internal
+            virion; lysozyme; primase; promoter; protein; protein kinase; recBCD
+            nuclease; RNase III site; scaffolding protein; single-stranded DNA
+            binding protein; T7 RNA polymerase; tail; tail fiber; terminase;
+            transcription terminator.
+SOURCE      Escherichia phage T7 (T7)
+  ORGANISM  Escherichia phage T7
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+            Autographivirales; Autotranscriptaviridae; Studiervirinae;
+            Teseptimavirus; Teseptimavirus T7.
+REFERENCE   1  (bases 1 to 2749)
+  AUTHORS   Liu,Q. and Richardson,C.C.
+  TITLE     Gene 5.5 protein of bacteriophage T7 inhibits the nucleoid protein
+            H-NS of Escherichia coli
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 90 (5), 1761-1765 (1993)
+   PUBMED   7680479
+  REMARK    gene 5.5 function
+REFERENCE   2  (bases 1 to 2749)
+  AUTHORS   Mendelman,L.V., Notarnicola,S.M. and Richardson,C.C.
+  TITLE     Roles of bacteriophage T7 gene 4 proteins in providing primase and
+            helicase functions in vivo
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 89 (22), 10638-10642 (1992)
+   PUBMED   1438259
+  REMARK    gene 4 function
+REFERENCE   3  (bases 1 to 2749)
+  AUTHORS   Rosenberg,A.H., Patel,S.S., Johnson,K.A. and Studier,F.W.
+  TITLE     Cloning and expression of gene 4 of bacteriophage T7 and creation
+            and analysis of T7 mutants lacking the 4A primase/helicase or the 4B
+            helicase
+  JOURNAL   J. Biol. Chem. 267 (21), 15005-15012 (1992)
+   PUBMED   1321823
+  REMARK    gene 4 function
+REFERENCE   4  (bases 1 to 2749)
+  AUTHORS   Lin,L.
+  JOURNAL   Thesis (1992) State University of New York at Stony Brook
+  REMARK    gene 5.5 and 5.9 function
+REFERENCE   5  (bases 1 to 2749)
+  AUTHORS   Condron,B.G., Atkins,J.F. and Gesteland,R.F.
+  TITLE     Frameshifting in gene 10 of bacteriophage T7
+  JOURNAL   J. Bacteriol. 173 (21), 6998-7003 (1991)
+   PUBMED   1938901
+  REMARK    gene 10 frameshift
+REFERENCE   6  (bases 1 to 2749)
+  AUTHORS   Beck,P.J., Gonzalez,S., Ward,C.L. and Molineux,I.J.
+  TITLE     Sequence of bacteriophage T3 DNA from gene 2.5 through gene 9
+  JOURNAL   J. Mol. Biol. 210 (4), 687-701 (1989)
+   PUBMED   2614843
+  REMARK    gene 5.9
+REFERENCE   7  (bases 1 to 2749)
+  AUTHORS   Casjens,S., Eppler,K., Parr,R. and Poteete,A.R.
+  TITLE     Nucleotide sequence of the bacteriophage P22 gene 19 to 3 region:
+            identification of a new gene required for lysis
+  JOURNAL   Virology 171 (2), 588-598 (1989)
+   PUBMED   2763468
+  REMARK    gene 18.5 function
+REFERENCE   8  (bases 1 to 2749)
+  AUTHORS   Molineux,I.J., Schmitt,C.K. and Condreay,J.P.
+  TITLE     Mutants of bacteriophage T7 that escape F restriction
+  JOURNAL   J. Mol. Biol. 207 (3), 563-574 (1989)
+   PUBMED   2668536
+  REMARK    gene 1.2 function
+REFERENCE   9  (bases 1 to 2749)
+  AUTHORS   Huber,H.E., Beauchamp,B.B. and Richardson,C.C.
+  TITLE     Escherichia coli dGTP triphosphohydrolase is inhibited by gene 1.2
+            protein of bacteriophage T7
+  JOURNAL   J. Biol. Chem. 263 (27), 13549-13556 (1988)
+   PUBMED   2843524
+  REMARK    gene 1.2 function
+REFERENCE   10  (bases 1 to 2749)
+  AUTHORS   Moffatt,B.A. and Studier,F.W.
+  TITLE     T7 lysozyme inhibits transcription by T7 RNA polymerase
+  JOURNAL   Cell 49 (2), 221-227 (1987)
+   PUBMED   3568126
+  REMARK    gene 3.5 function
+REFERENCE   11  (bases 1 to 2749)
+  AUTHORS   Prosen,D.E. and Cech,C.L.
+  TITLE     Bacteriophage T7 E promoter: identification and measurement of
+            kinetics of association with Escherichia coli RNA polymerase
+  JOURNAL   Biochemistry 24 (9), 2219-2227 (1985)
+   PUBMED   3922411
+  REMARK    E. coli E promoter
+REFERENCE   12  (bases 2 to 2749)
+  AUTHORS   Moffatt,B.A., Dunn,J.J. and Studier,F.W.
+  TITLE     Nucleotide sequence of the gene for bacteriophage T7 RNA polymerase
+  JOURNAL   J. Mol. Biol. 173 (2), 265-269 (1984)
+   PUBMED   6708104
+  REMARK    complete genome
+REFERENCE   13  (bases 1 to 2749)
+  AUTHORS   Dunn,J.J. and Studier,F.W.
+  TITLE     Complete nucleotide sequence of bacteriophage T7 DNA and the
+            locations of T7 genetic elements
+  JOURNAL   J. Mol. Biol. 166 (4), 477-535 (1983)
+   PUBMED   6864790
+  REMARK    complete genome
+REFERENCE   14  (bases 1 to 2749)
+  AUTHORS   Dunn,J.J.
+  JOURNAL   Unpublished
+REFERENCE   15  (bases 1 to 2749)
+  AUTHORS   Zhang,X. and Studier,F.W.
+  JOURNAL   Unpublished
+  REMARK    gene 17.5 function
+REFERENCE   16  (bases 1 to 2749)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-SEP-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   17  (bases 1 to 2749)
+  AUTHORS   Dunn,J.J. and Studier,F.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-NOV-1993) Dunn J.J
+  REMARK    complete genome
+REFERENCE   18  (bases 1 to 2749)
+  AUTHORS   Dunn,J.J. and Studier,F.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-OCT-1993) Dunn J.J
+  REMARK    revised by [18]
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from V01146.
+            The sequence was submitted by the authors [1] on magnetic tape and
+            revised according to [3], [4], and [5]. [3] made changes at 8
+            positions in gene 1 without affecting the size of the total
+            sequence but changing gene 1 amino acids 443, 474, and 388 to 424.
+            [4] inserted a T at nucleotide 17511, increasing the total sequence
+            to 39937 bp. This change, originally found in T3 DNA [8], revealed
+            gene 5.9 and shortened gene 6. [5] changed the nucleotides at 11061
+            and 11062 from GT to TG, changing amino acid 119 of T7 lysozyme
+            (gene 3.5) from glycine to valine. Features have been extracted
+            from [1] unless otherwise noted. The sequence shown is that of the
+            l strand, which corresponds to the sequence of all mRNAs of known
+            functional significance. Early mRNAs are produced by three major
+            promoters for E. coli RNA polymerase A1, A2, and A3, located near
+            the left end of the DNA. A fourth major E. coli promoter, A0 (also
+            called D), that would direct transcription leftward, and several
+            minor E. coli promoters (see Table 6 in [1]) function in vitro but
+            have no known in vivo function. Late mRNAs are produced by 15
+            promoters for T7 RNA polymerase distributed across the right-most
+            85% of the DNA, and named e.g. phi10, for the first gene downstream
+            of the promoter. There are also two T7 promoters, phiOL and phiOR,
+            associated with possible origins of replication at the left and
+            right ends of T7 DNA. The 23 base-pair consensus sequence for T7
+            promoters stretches from -17 to +6, where the initiating nucleotide
+            is at +1. T7 DNA also contains a 160 base-pair terminal repetition.
+            The beginning and end of RNAs are determined by the promoters; by a
+            terminator for E. coli RNA polymerase, TE, located at the end of
+            the early region; a terminator for T7 RNA polymerase, Tphi, located
+            just downstream of gene 10; and a series of RNase III cleavage
+            sites. Early mRNAs made by E. coli RNA polymerase are listed in
+            Features. The many RNAs predicted to be made by T7 RNA polymerase
+            are not listed but can be deduced from the position of the
+            transcription signals (see Tables 8 and 9 in [1]). Promoters are
+            listed in Features by the known or predicted first nucleotide of
+            the RNA, terminators by the last nucleotide of the RNA, and RNase
+            III sites by the nucleotide 5' of the position of cleavage. Genes
+            are numbered 0.3 to 19.5 in order of their left-to-right position
+            on the genome. Proteins are named by the gene number, e.g., the
+            gene 1 protein, or by a functional name, e.g., T7 RNA polymerase.
+            There is now genetic or biochemical evidence that proteins are
+            produced from at least 52 of the 56 T7 genes. Gene 4 produces two
+            proteins, 4A and 4B, by initiating translation at two different
+            sites in the same reading frame. Gene 10 produces two proteins, 10A
+            and 10B, by frameshifting during translation. Genes 0.6 and 5.5
+            probably also make two proteins by translational frameshifting, the
+            gene 5.5 frameshift producing a gene 5.5-5.7 fusion protein.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2749
+                     /organism="Escherichia phage T7"
+                     /mol_type="genomic DNA"
+                     /host="Escherichia coli"
+                     /db_xref="taxon:10760"
+     gene            1..2749
+                     /locus_tag="T7p07"
+                     /note="gene 1"
+                     /db_xref="GeneID:1261050"
+     mRNA            1..2749
+                     /locus_tag="T7p07"
+                     /product="1 mRNA"
+                     /db_xref="GeneID:1261050"
+     CDS             33..2684
+                     /locus_tag="T7p07"
+                     /note="A family of single subunit RNA polymerases."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA polymerase"
+                     /protein_id="NP_041960.1"
+                     /db_xref="GOA:P00573"
+                     /db_xref="UniProtKB/Swiss-Prot:P00573"
+                     /db_xref="GeneID:1261050"
+                     /translation="MNTINIAKNDFSDIELAAIPFNTLADHYGERLAREQLALEHESYE
+                     MGEARFRKMFERQLKAGEVADNAAAKPLITTLLPKMIARINDWFEEVKAKRGKRPTAFQ
+                     FLQEIKPEAVAYITIKTTLACLTSADNTTVQAVASAIGRAIEDEARFGRIRDLEAKHFK
+                     KNVEEQLNKRVGHVYKKAFMQVVEADMLSKGLLGGEAWSSWHKEDSIHVGVRCIEMLIE
+                     STGMVSLHRQNAGVVGQDSETIELAPEYAEAIATRAGALAGISPMFQPCVVPPKPWTGI
+                     TGGGYWANGRRPLALVRTHSKKALMRYEDVYMPEVYKAINIAQNTAWKINKKVLAVANV
+                     ITKWKHCPVEDIPAIEREELPMKPEDIDMNPEALTAWKRAAAAVYRKDKARKSRRISLE
+                     FMLEQANKFANHKAIWFPYNMDWRGRVYAVSMFNPQGNDMTKGLLTLAKGKPIGKEGYY
+                     WLKIHGANCAGVDKVPFPERIKFIEENHENIMACAKSPLENTWWAEQDSPFCFLAFCFE
+                     YAGVQHHGLSYNCSLPLAFDGSCSGIQHFSAMLRDEVGGRAVNLLPSETVQDIYGIVAK
+                     KVNEILQADAINGTDNEVVTVTDENTGEISEKVKLGTKALAGQWLAYGVTRSVTKRSVM
+                     TLAYGSKEFGFRQQVLEDTIQPAIDSGKGLMFTQPNQAAGYMAKLIWESVSVTVVAAVE
+                     AMNWLKSAAKLLAAEVKDKKTGEILRKRCAVHWVTPDGFPVWQEYKKPIQTRLNLMFLG
+                     QFRLQPTINTNKDSEIDAHKQESGIAPNFVHSQDGSHLRKTVVWAHEKYGIESFALIHD
+                     SFGTIPADAANLFKAVRETMVDTYESCDVLADFYDQFADQLHESQLDKMPALPAKGNLN
+                     LRDILESDFAFA"
+     regulatory      2710
+                     /regulatory_class="promoter"
+                     /locus_tag="T7p07"
+                     /note="T7 promoter phi1.1A"
+     misc_structure  2749
+                     /locus_tag="T7p07"
+                     /note="RNase III site R1.1"
+ORIGIN
+        1 aggtacgatt tactaactgg aagaggcact aaatgaacac gattaacatc gctaagaacg
+       61 acttctctga catcgaactg gctgctatcc cgttcaacac tctggctgac cattacggtg
+      121 agcgtttagc tcgcgaacag ttggcccttg agcatgagtc ttacgagatg ggtgaagcac
+      181 gcttccgcaa gatgtttgag cgtcaactta aagctggtga ggttgcggat aacgctgccg
+      241 ccaagcctct catcactacc ctactcccta agatgattgc acgcatcaac gactggtttg
+      301 aggaagtgaa agctaagcgc ggcaagcgcc cgacagcctt ccagttcctg caagaaatca
+      361 agccggaagc cgtagcgtac atcaccatta agaccactct ggcttgccta accagtgctg
+      421 acaatacaac cgttcaggct gtagcaagcg caatcggtcg ggccattgag gacgaggctc
+      481 gcttcggtcg tatccgtgac cttgaagcta agcacttcaa gaaaaacgtt gaggaacaac
+      541 tcaacaagcg cgtagggcac gtctacaaga aagcatttat gcaagttgtc gaggctgaca
+      601 tgctctctaa gggtctactc ggtggcgagg cgtggtcttc gtggcataag gaagactcta
+      661 ttcatgtagg agtacgctgc atcgagatgc tcattgagtc aaccggaatg gttagcttac
+      721 accgccaaaa tgctggcgta gtaggtcaag actctgagac tatcgaactc gcacctgaat
+      781 acgctgaggc tatcgcaacc cgtgcaggtg cgctggctgg catctctccg atgttccaac
+      841 cttgcgtagt tcctcctaag ccgtggactg gcattactgg tggtggctat tgggctaacg
+      901 gtcgtcgtcc tctggcgctg gtgcgtactc acagtaagaa agcactgatg cgctacgaag
+      961 acgtttacat gcctgaggtg tacaaagcga ttaacattgc gcaaaacacc gcatggaaaa
+     1021 tcaacaagaa agtcctagcg gtcgccaacg taatcaccaa gtggaagcat tgtccggtcg
+     1081 aggacatccc tgcgattgag cgtgaagaac tcccgatgaa accggaagac atcgacatga
+     1141 atcctgaggc tctcaccgcg tggaaacgtg ctgccgctgc tgtgtaccgc aaggacaagg
+     1201 ctcgcaagtc tcgccgtatc agccttgagt tcatgcttga gcaagccaat aagtttgcta
+     1261 accataaggc catctggttc ccttacaaca tggactggcg cggtcgtgtt tacgctgtgt
+     1321 caatgttcaa cccgcaaggt aacgatatga ccaaaggact gcttacgctg gcgaaaggta
+     1381 aaccaatcgg taaggaaggt tactactggc tgaaaatcca cggtgcaaac tgtgcgggtg
+     1441 tcgataaggt tccgttccct gagcgcatca agttcattga ggaaaaccac gagaacatca
+     1501 tggcttgcgc taagtctcca ctggagaaca cttggtgggc tgagcaagat tctccgttct
+     1561 gcttccttgc gttctgcttt gagtacgctg gggtacagca ccacggcctg agctataact
+     1621 gctcccttcc gctggcgttt gacgggtctt gctctggcat ccagcacttc tccgcgatgc
+     1681 tccgagatga ggtaggtggt cgcgcggtta acttgcttcc tagtgaaacc gttcaggaca
+     1741 tctacgggat tgttgctaag aaagtcaacg agattctaca agcagacgca atcaatggga
+     1801 ccgataacga agtagttacc gtgaccgatg agaacactgg tgaaatctct gagaaagtca
+     1861 agctgggcac taaggcactg gctggtcaat ggctggctta cggtgttact cgcagtgtga
+     1921 ctaagcgttc agtcatgacg ctggcttacg ggtccaaaga gttcggcttc cgtcaacaag
+     1981 tgctggaaga taccattcag ccagctattg attccggcaa gggtctgatg ttcactcagc
+     2041 cgaatcaggc tgctggatac atggctaagc tgatttggga atctgtgagc gtgacggtgg
+     2101 tagctgcggt tgaagcaatg aactggctta agtctgctgc taagctgctg gctgctgagg
+     2161 tcaaagataa gaagactgga gagattcttc gcaagcgttg cgctgtgcat tgggtaactc
+     2221 ctgatggttt ccctgtgtgg caggaataca agaagcctat tcagacgcgc ttgaacctga
+     2281 tgttcctcgg tcagttccgc ttacagccta ccattaacac caacaaagat agcgagattg
+     2341 atgcacacaa acaggagtct ggtatcgctc ctaactttgt acacagccaa gacggtagcc
+     2401 accttcgtaa gactgtagtg tgggcacacg agaagtacgg aatcgaatct tttgcactga
+     2461 ttcacgactc cttcggtacc attccggctg acgctgcgaa cctgttcaaa gcagtgcgcg
+     2521 aaactatggt tgacacatat gagtcttgtg atgtactggc tgatttctac gaccagttcg
+     2581 ctgaccagtt gcacgagtct caattggaca aaatgccagc acttccggct aaaggtaact
+     2641 tgaacctccg tgacatctta gagtcggact tcgcgttcgc gtaacgccaa atcaatacga
+     2701 ctcactatag agggacaaac tcaaggtcat tcgcaagagt ggcctttat
+//
