@@ -3,7 +3,10 @@ from Bio import SeqIO
 
 
 def setup_entrez(email):
-    """Configura o email para o Entrez."""
+    """Configura o email para o Entrez.
+    Args:
+        email (str): O endereço de e-mail do utilizador.
+    """
     Entrez.email = email
 
 
@@ -11,6 +14,18 @@ def fetch_and_parse_genome(accession_id):
     """
     Faz o download do genoma completo e imprime informações gerais.
     Retorna o record do GenBank.
+
+    Obtém o genoma completo da base de dados de nucleótidos e apresenta informações gerais.
+
+    Realiza o download do registo via Entrez, converte-o num objeto SeqRecord
+    e imprime o identificador, a descrição, o comprimento total da sequência
+    e a fonte de origem.
+
+    Args:
+        accession_id (str): O id de acesso do NCBI.
+
+    Returns:
+        SeqRecord: O objeto contendo a informação completa do GenBank.
     """
     handle = Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", id=accession_id)
     gb_record = SeqIO.read(handle, "genbank")
@@ -27,7 +42,14 @@ def fetch_and_parse_genome(accession_id):
 
 def analyze_gene_features(gb_record):
     """
-    Percorre as features do tipo 'gene' e imprime suas localizações e qualificadores.
+    Analisa as características do tipo 'gene' presentes no registo.
+
+    Itera sobre todas as características (features) do objeto, seleciona as que
+    são identificadas como genes e imprime as coordenadas (início e fim), bem como
+    todos os qualificadores associados a cada gene.
+
+    Args:
+        gb_record (SeqRecord): O objeto do registo GenBank a analisar.
     """
     for feature in gb_record.features:
         if feature.type == "gene":
@@ -45,6 +67,22 @@ def analyze_gene_features(gb_record):
 def fetch_specific_gene_region(accession_id, start, stop, output_gb, output_fasta):
     """
     Procura uma região específica do genoma e salva em GB e FASTA.
+    Extrai uma região específica da sequência de nucleótidos e guarda em ficheiro.
+
+    Obtém um segmento definido pelos parâmetros de início e fim, grava o
+    resultado nos formatos GenBank (.gb) e FASTA (.fasta), e imprime
+    informações sumárias sobre o segmento obtido.
+
+    Args:
+        accession_id (str): O id de acesso do NCBI.
+        start (int): A posição de início da sequência.
+        stop (int): A posição de fim da sequência.
+        output_gb (str): O caminho para o ficheiro de saída GenBank.
+        output_fasta (str): O caminho para o ficheiro de saída FASTA.
+
+    Returns:
+        SeqRecord: O objeto contendo a região específica do gene.
+
     """
     handle = Entrez.efetch(
         db="nucleotide",
@@ -71,7 +109,15 @@ def fetch_specific_gene_region(accession_id, start, stop, output_gb, output_fast
 
 def fetch_protein(protein_id, output_fasta):
     """
-    Procura uma proteína e salva em FASTA.
+    Obtém o registo de uma proteína e guarda a sequência em formato FASTA.
+
+    Acede à base de dados de proteínas do NCBI, processa os registos
+    encontrados, apresenta os detalhes na consola e exporta os dados para
+    o ficheiro especificado.
+
+    Args:
+        protein_id (str): O id da proteína no NCBI.
+        output_fasta (str): O caminho para o ficheiro de saída FASTA.
     """
     handle = Entrez.efetch(db="protein", rettype="gb", retmode="text", id=protein_id)
 
@@ -89,7 +135,17 @@ def fetch_protein(protein_id, output_fasta):
 
 def analyze_detailed_features(gene_record):
     """
-    Imprime taxonomias, tipos de features e qualificadores detalhados
+    Imprime taxonomias, tipos de features e qualifiers detalhados
+
+    Executa várias operações de inspeção sobre o objeto:
+    1. Conta o número de características anotadas.
+    2. Imprime a informação taxonómica, se disponível.
+    3. Lista os tipos de todas as características presentes.
+    4. Apresenta os qualifiers detalhados de cada feature.
+    5. Identifica e imprime referências cruzadas a bases de dados externas (db_xref).
+
+    Args:
+        gene_record (SeqRecord): O objeto do registo genético a analisar.
     """
     featgene = []
     for i in range(len(gene_record.features)):
