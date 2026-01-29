@@ -13,4 +13,4 @@ Paulo Ricardo Oliveira pg59763
 Maria Joana da Silva pg59762
 
 Organismo:
-Enterobacteria phage T7
+Escherichia phage T7
