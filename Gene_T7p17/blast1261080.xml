@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3565703</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_041970.1 Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage T7]</BlastOutput_query-def>
+  <BlastOutput_query-len>232</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3565703</Iteration_query-ID>
+  <Iteration_query-def>NP_041970.1 Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage T7]</Iteration_query-def>
+  <Iteration_query-len>232</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_041970.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage T7] &gt;sp|P03696.1| RecName: Full=Single-stranded DNA-binding protein; Short=SSB protein; AltName: Full=2.5 protein; AltName: Full=Gene product 2.5; Short=gp2.5 [Escherichia phage T7] &gt;gb|AXQ60570.1| single-stranded DNA-binding protein [Synthetic phage] &gt;gb|WXH46310.1| single-stranded DNA binding protein [Teseptimavirus T7] &gt;gb|AAP33924.1| gene 2.5 [Escherichia phage T7] &gt;gb|ACY75844.1| single-stranded DNA-binding protein [Escherichia phage T7] &gt;gb|AVH85531.1| single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>NP_041970</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.167</Hsp_bit-score>
+      <Hsp_score>1219</Hsp_score>
+      <Hsp_evalue>2.3333e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|QZB84075.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7] &gt;gb|QZB84113.1| single-stranded DNA-binding protein [Escherichia phage T7] &gt;gb|QZB84151.1| single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB84075</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>7.14547e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MSKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>M+KKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AAZ32836.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Enterobacteria phage T7.1]</Hit_def>
+  <Hit_accession>AAZ32836</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>8.05502e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|WXH46857.1|</Hit_id>
+  <Hit_def>single-stranded DNA binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>WXH46857</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>9.82253e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYKANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEY+ANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|QZB84677.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB84677</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>1.02632e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYITKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|QZB85084.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB85084</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>1.55727e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MSKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLRVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>M+KKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKL+VKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|WXH46914.1|</Hit_id>
+  <Hit_def>single-stranded DNA binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>WXH46914</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>1.93941e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFISALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIF SALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|UXY92496.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage 04922B] &gt;tpg|HDL7368333.1| DUF2815 family protein [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>UXY92496</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>3.04119e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEE DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|QZB84937.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB84937</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>3.43132e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEGVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKME VPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAP34080.1|</Hit_id>
+  <Hit_def>gene 2.5 [Escherichia phage T7] &gt;gb|AAP34134.1| gene 2.5 [Escherichia phage T7]</Hit_def>
+  <Hit_accession>AAP34080</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>3.54614e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMKDVPIIGGGSKLKVKYSLIPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADENGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKM+DVPIIGGGSKLKVKYSL+PYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADE+GDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|QZB84188.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB84188</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>4.61446e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNLRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGN RGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|YP_009813821.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage C5] &gt;gb|AYD80181.1| single-stranded DNA-binding protein [Escherichia phage C5] &gt;gb|YCL01623.1| ssDNA binding and annealing protein [Escherichia phage Huge]</Hit_def>
+  <Hit_accession>YP_009813821</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>7.47807e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE SEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|QZB85160.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7] &gt;gb|QZB85309.1| single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB85160</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>7.98695e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIVGGSKLRVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPII GGSKL+VKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|XDJ04403.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia phage vB_EcoM_CQ615] &gt;gb|YBW06325.1| ssDNA binding and annealing protein [Escherichia phage UHEC]</Hit_def>
+  <Hit_accession>XDJ04403</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>8.16415e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPSVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPP+VARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEE DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|QZB85011.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB85011</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>8.62456e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYITKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLRVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWTDEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKL+VKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDW DEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|QJT70344.1|</Hit_id>
+  <Hit_def>ssDNA binding protein [Enterococcus phage EFA-2]</Hit_def>
+  <Hit_accession>QJT70344</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>9.51971e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYESNPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYE+NPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|QGK90524.1|</Hit_id>
+  <Hit_def>ssDNA-binding protein [Salmonella phage C2]</Hit_def>
+  <Hit_accession>QGK90524</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>1.30862e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPQVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKQRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPP VARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASK RDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|WMX18681.1|</Hit_id>
+  <Hit_def>ssDNA binding protein and ssDNA annealingprotein [Yersinia phage vB_YpYeO9] &gt;gb|YCJ05499.1| ssDNA binding and annealing protein [Escherichia phage vB_ECC-2]</Hit_def>
+  <Hit_accession>WMX18681</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>1.61195e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVFKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGV+KVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|YP_009813777.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage N30] &gt;gb|AYD80137.1| single-stranded DNA-binding protein [Escherichia phage N30]</Hit_def>
+  <Hit_accession>YP_009813777</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>1.74063e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYLSKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAY++KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE SEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|YP_009291489.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage 64795_ec1] &gt;gb|ANM45736.1| hypothetical protein [Escherichia phage 64795_ec1]</Hit_def>
+  <Hit_accession>YP_009291489</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>1.98559e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIGKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|AAP33979.1|</Hit_id>
+  <Hit_def>gene 2.5 [Escherichia phage T7] &gt;gb|AAP34030.1| gene 2.5 [Escherichia phage T7]</Hit_def>
+  <Hit_accession>AAP33979</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>2.02964e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYVAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKRINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAY AAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETK INLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|QXV80873.1|</Hit_id>
+  <Hit_def>ssDNA-binding protein [Escherichia phage JeanTinguely] &gt;gb|UTQ78054.1| single-stranded DNA-binding protein [Cedecea phage Yanou] &gt;gb|XPK40413.1| ssDNA binding and annealing protein [Escherichia phage AnnaIndermaur_Bas104]</Hit_def>
+  <Hit_accession>QXV80873</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>2.1207e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGEMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEG+MPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|QZB85048.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB85048</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>3.79343e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCWRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVAENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRC RMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEV ENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|QZB85121.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB85121</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>6.49415e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFISALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIVGGSKLRVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIF SALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPII GGSKL+VKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_113998060.1|</Hit_id>
+  <Hit_def>DUF2815 family protein [Escherichia coli] &gt;gb|RCF24100.1| single-stranded DNA-binding protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_113998060</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>7.8258e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYLSKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDEEGSEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAY++KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDED+E SEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|QZB85535.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB85535</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>1.17446e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYITKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIVGGSKLRVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADKVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPII GGSKL+VKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWAD+VEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|QUD16318.1|</Hit_id>
+  <Hit_def>hypothetical protein SYGE1_33 [Escherichia phage vB_EcoP_SYGE1]</Hit_def>
+  <Hit_accession>QUD16318</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.233</Hsp_bit-score>
+      <Hsp_score>1201</Hsp_score>
+      <Hsp_evalue>1.29635e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYLSKPDYGNEERGFGNPRGVYKVDLTTPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAY++KPDYGNEERGFGNPRGVYKVDLT PNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|YP_009798016.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage HZ2R8] &gt;gb|AUV62638.1| single-stranded DNA-binding protein [Escherichia phage HZ2R8]</Hit_def>
+  <Hit_accession>YP_009798016</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.463</Hsp_bit-score>
+      <Hsp_score>1199</Hsp_score>
+      <Hsp_evalue>2.64515e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDSESYEEDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD ES E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|XPK40924.1|</Hit_id>
+  <Hit_def>ssDNA binding and annealing protein [Escherichia phage EmilieLinder_Bas103]</Hit_def>
+  <Hit_accession>XPK40924</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.077</Hsp_bit-score>
+      <Hsp_score>1198</Hsp_score>
+      <Hsp_evalue>3.79924e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPTVARGKKPLKPYEGEMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKVSKPRDEESWDEDDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPP VARGKKPLKPYEG+MPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAK SKPRDEESWDEDDEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|QZB85234.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage T7]</Hit_def>
+  <Hit_accession>QZB85234</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.077</Hsp_bit-score>
+      <Hsp_score>1198</Hsp_score>
+      <Hsp_evalue>4.94376e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYITKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDPKGKKMEDVPIIVGGSKLRVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVD KGKKMEDVPII GGSKL+VKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|YP_009152474.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage CICC 80001] &gt;gb|AIM41072.1| ssDNA-binding protein [Escherichia phage CICC 80001]</Hit_def>
+  <Hit_accession>YP_009152474</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.307</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>7.66756e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIGKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKIEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESYEEDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+EDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|YP_002003948.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage 13a] &gt;gb|ACF15898.1| gp2.5 [Escherichia phage 13a] &gt;gb|QXV80648.1| ssDNA-binding protein [Escherichia phage JacobBurckhardt] &gt;gb|YCJ05457.1| ssDNA binding protein [Escherichia phage vB_BS-2]</Hit_def>
+  <Hit_accession>YP_002003948</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>1.38665e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|WPK33059.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage AV103]</Hit_def>
+  <Hit_accession>WPK33059</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>1.56452e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYLSKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKAYASYQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAY++KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFK YAS+QDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|YP_009814080.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Enterobacteria phage vB_EcoP_IME390] &gt;gb|AYD82929.1| ssDNA-binding protein [Enterobacteria phage vB_EcoP_IME390] &gt;gb|QHI00795.1| ssDNA-binding protein [Escherichia phage vB_EcoP_PHB20]</Hit_def>
+  <Hit_accession>YP_009814080</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>1.9699e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGIAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKIEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESYEEDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALG AEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+EDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|YP_009804762.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Salmonella phage 3A_8767] &gt;gb|AXC37080.1| ssDNA-binding protein [Salmonella phage 3A_8767]</Hit_def>
+  <Hit_accession>YP_009804762</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>4.01944e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKLEEVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDSESYEEDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+E+VPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD ES E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|QFG06787.1|</Hit_id>
+  <Hit_def>single stranded DNA-binding protein [Serratia phage Pila]</Hit_def>
+  <Hit_accession>QFG06787</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>4.45209e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE-ESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKIEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELAAFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDDNESEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+EDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELA FGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD+ ESEEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|NP_848274.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Yersinia phage phiA1122] &gt;ref|YP_009799288.1| Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Yersinia phage YpsP-G] &gt;gb|AAP20510.1| protein 2.5 [Yersinia phage phiA1122] &gt;gb|AFK13502.1| T7-like DNA-binding protein [Yersinia phage YpsP-G]</Hit_def>
+  <Hit_accession>NP_848274</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>5.64779e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDGDSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD +S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_338260252.1|</Hit_id>
+  <Hit_def>DUF2815 family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_338260252</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>6.03209e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAVVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDGESWDECDEESDEVDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAA VEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRD ESWDE DEES+E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|URY10707.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Shigella phage ESh3]</Hit_def>
+  <Hit_accession>URY10707</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>8.85603e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYLSKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAY++KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|QHI00767.1|</Hit_id>
+  <Hit_def>ssDNA-binding protein [Escherichia phage vB_EcoP_PHB19]</Hit_def>
+  <Hit_accession>QHI00767</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>9.05251e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPSVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPP+VARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|WGL32413.1|</Hit_id>
+  <Hit_def>ssDNA binding protein [Escherichia phage PGX1]</Hit_def>
+  <Hit_accession>WGL32413</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>1.19094e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKQRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASK RDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|YBW06280.1|</Hit_id>
+  <Hit_def>hypothetical protein UHEC_00007 [Escherichia phage UHEC]</Hit_def>
+  <Hit_accession>YBW06280</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.225</Hsp_bit-score>
+      <Hsp_score>1188</Hsp_score>
+      <Hsp_evalue>1.4187e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE---ESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGIAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDDNESEEEEADEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALG AEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD+   E EEADEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|AFK13407.1|</Hit_id>
+  <Hit_def>protein 2.5 [Yersinia phage YpP-R] &gt;gb|AGB07335.1| single-stranded DNA binding protein [Yersinia phage R] &gt;gb|AGC35474.1| single-stranded DNA binding protein [Yersinia phage Y]</Hit_def>
+  <Hit_accession>AFK13407</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.225</Hsp_bit-score>
+      <Hsp_score>1188</Hsp_score>
+      <Hsp_evalue>1.61923e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MSKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDGDSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>M+KKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD +S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|YP_009799236.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Yersinia phage YpP-Y] &gt;gb|AFK13354.1| protein 2.5 [Yersinia phage YpP-Y]</Hit_def>
+  <Hit_accession>YP_009799236</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>2.45681e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYATAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDGDSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYA AVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD +S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|URY10873.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Shigella phage ESh6]</Hit_def>
+  <Hit_accession>URY10873</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>3.81036e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYISKPDYGNEERGFGNPRGIFKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPSVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI+KPDYGNEERGFGNPRG++KVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPP+VARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|QLF85716.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Serratia phage vB_SmaP-UFV01]</Hit_def>
+  <Hit_accession>QLF85716</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>4.74528e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYLSKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKIEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAY++KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+EDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_252549073.1|</Hit_id>
+  <Hit_def>DUF2815 family protein [Staphylococcus hyicus] &gt;gb|MCO4329779.1| DUF2815 family protein [Staphylococcus hyicus] &gt;gb|MCO4332126.1| DUF2815 family protein [Staphylococcus hyicus] &gt;gb|MCO4337469.1| DUF2815 family protein [Staphylococcus hyicus]</Hit_def>
+  <Hit_accession>WP_252549073</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.685</Hsp_bit-score>
+      <Hsp_score>1184</Hsp_score>
+      <Hsp_evalue>6.17473e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKSYASYQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFK YAS+QDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|YP_009820162.1|</Hit_id>
+  <Hit_def>Gp2.5-like ssDNA binding protein and ssDNA annealing protein [Escherichia phage NC-A] &gt;gb|QBG78780.1| hypothetical protein [Escherichia phage NC-A]</Hit_def>
+  <Hit_accession>YP_009820162</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>8.67614e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGTAEPYAYIGKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYSAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKLEEVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDGESYEEDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALGTAEPYAYI KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAY+AAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+E+VPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDD ES E DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|XLQ29386.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Escherichia phage KKE5P]</Hit_def>
+  <Hit_accession>XLQ29386</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>1.13288e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEES-EEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGIAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKIEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEESGYVASGSAKASKPRDEESWDEDDSESYEEEDEDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALG AEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+EDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEE+GYVASGSAKASKPRDEESWDEDD ES EE DEDGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|URY10664.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Shigella phage ESh1]</Hit_def>
+  <Hit_accession>URY10664</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>1.16674e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKIFTSALGTAEPYAYIAKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKMEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEESEEADEDGDF</Hsp_qseq>
+      <Hsp_hseq>MAKKIFTSALGIAEPYAYISKPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKKIEDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDEGSYEEDSDGDF</Hsp_hseq>
+      <Hsp_midline>MAKKIFTSALG AEPYAYI+KPDYGNEERGFGNPRGVYKVDLTIPNKDPRCQRMVDEIVKCHEEAYAAAVEEYEANPPAVARGKKPLKPYEGDMPFFDNGDGTTTFKFKCYASFQDKKTKETKHINLVVVDSKGKK+EDVPIIGGGSKLKVKYSLVPYKWNTAVGASVKLQLESVMLVELATFGGGEDDWADEVEENGYVASGSAKASKPRDEESWDEDDE S E D DGDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>990766241</Statistics_db-num>
+      <Statistics_db-len>376345846748</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
